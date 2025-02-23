@@ -12,7 +12,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from tkinter import messagebox, simpledialog, Listbox
 
-#Merhaba
+
 
 # Load the fine-tuned Turkish BERT model, tokenizer, and label encoder
 model_path = "C:/Users/riadm/Desktop/BertTurkModelFinal/fine_tuned_results_turkish"
