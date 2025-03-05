@@ -8,18 +8,20 @@ from pydub import AudioSegment
 from io import BytesIO
 import os
 import pygame
+import locale
+locale.setlocale(locale.LC_ALL, 'tr_TR.UTF-8')
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from tkinter import messagebox, simpledialog, Listbox
-
+import sklearn
 
 
 # Load the fine-tuned Turkish BERT model, tokenizer, and label encoder
-model_path = "C:/Users/riadm/Desktop/BertTurkModelFinal/fine_tuned_results_turkish"
+model_path = r"C:\Users\Deniz\Documents\GitHub\Sentiment-Analysis-with-TTS\fine_tuned_results_turkish"
 model = BertForSequenceClassification.from_pretrained(model_path)
 tokenizer = BertTokenizer.from_pretrained(model_path)
 
-with open("C:/Users/riadm/Desktop/BertTurkModelFinal/label_encoder.pkl", "rb") as f:
+with open(r"C:\Users\Deniz\Documents\GitHub\Sentiment-Analysis-with-TTS\src\label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 # Move model to device
