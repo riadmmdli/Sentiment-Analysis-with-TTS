@@ -28,7 +28,7 @@ Bu proje, kullanıcı tarafından girilen Türkçe metni analiz ederek cümleler
   ```bash
   pip install torch transformers pydub requests pygame ttkbootstrap
   
-##API Anahtarı
+## API Anahtarı
 
 ElevenLabs API'yi kullanabilmek için kendi API anahtarınızı almanız gerekmektedir. API anahtarını almak için ElevenLabs web sitesine gidin ve bir hesap oluşturun. Hesabınızı oluşturduktan sonra, API anahtarınızı oluşturabilirsiniz.
 
@@ -39,10 +39,10 @@ ElevenLabs API anahtarınızı, Python dosyanızın başına şu şekilde ekleyi
   ELEVENLABS_VOICE_ID = "nPczCjzI2devNBz1zQrb"  # Kullanmak istediğiniz sesin ID'si
 
 ```
-##Model Dosyaları
+## Model Dosyaları
 Bu proje için model dosyalarına ihtiyacınız olacak. Modeli HuggingFace'ten indirip projenize dahil edebilirsiniz. Model dosyalarını aşağıdaki dizine yerleştirmeniz gerekiyor:
 
-fine_tuned_results_turkish klasörü içerisinde:
+- fine_tuned_results_turkish klasörü içerisinde:
 
 - pytorch_model.bin (Model dosyası)
 
@@ -52,7 +52,7 @@ fine_tuned_results_turkish klasörü içerisinde:
 
 - label_encoder.pkl (Etiketleri çözümlemek için encoder dosyası)
 
-##📸 Arayüz Görünümü
+## 📸 Arayüz Görünümü
 - Metin giriş alanı
 
 - Duygu analiz ve ses oluşturma butonu
@@ -61,7 +61,7 @@ fine_tuned_results_turkish klasörü içerisinde:
 
 - Duygu, cümle ve güven skoru listesi
 
-##📂 Çıktı Örneği
+## 📂 Çıktı Örneği
 Örneğin, aşağıdaki gibi bir çıktı alabilirsiniz:
 
   ```text
@@ -69,7 +69,7 @@ fine_tuned_results_turkish klasörü içerisinde:
 <üzgün> Ama içim biraz buruk. </üzgün> | üzgün | 88.75%
 ```
 
-##📌 Notlar
+## 📌 Notlar
 - Her cümle ayrı ayrı analiz edilip seslendirilir.
 
 - Tahmin edilen duygu cümle başı ve sonuna <duygu> etiketleri ile eklenir.
