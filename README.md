@@ -75,3 +75,7 @@ Bu proje için model dosyalarına ihtiyacınız olacak. Modeli HuggingFace'ten i
 - Tahmin edilen duygu cümle başı ve sonuna <duygu> etiketleri ile eklenir.
 
 - WAV dosyası olarak dışa aktarılır.
+
+## 🖼️ Ekran Görüntüsü
+
+![image](https://github.com/user-attachments/assets/01f9314b-ed1f-4067-bfe6-0d7446f68864)
