@@ -1,4 +1,5 @@
-🎙️ Emotion Dubbing App
+🎙️
+Emotion Dubbing App
 Emotion Dubbing App, Türkçe metinlerdeki duyguyu analiz eden ve bu duygulara uygun seslendirme yapan bir masaüstü uygulamasıdır. Uygulama, BERT tabanlı Türkçe duygu analiz modeli ile metindeki her cümleyi analiz eder ve ElevenLabs TTS API’si ile duygulu seslendirme yapar.
 
 🚀 Özellikler
