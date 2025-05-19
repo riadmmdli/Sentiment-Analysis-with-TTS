@@ -1,1 +1,24 @@
+# Ignore API key file
+elevenlabs_api_key.txt
+
+# Ignore virtual environment
+myenv/
+myenv/*
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore audio output (optional)
 *.wav
+*.mp3
+
+# Ignore dataset if large
+*.csv

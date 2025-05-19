@@ -26,7 +26,9 @@ model.to(device)
 model.eval()
 
 # ElevenLabs API Key (Replace with your own API key)
-ELEVENLABS_API_KEY = "sk_37631774c45cbc5efae62d909be21c4b8556f78a8fae3f94"
+# Load API key from external file
+with open("C:/Users/riadm/Desktop/elevenlabs_api_key.txt", "r") as key_file:
+    ELEVENLABS_API_KEY = key_file.read().strip()
 ELEVENLABS_VOICE_ID = "nPczCjzI2devNBz1zQrb"
 
 def predict_emotion(sentence):
