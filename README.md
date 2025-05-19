@@ -38,7 +38,6 @@ Oluşturduğunuz text dosyasının içine API Anahtarınızı ekledikten sonra d
   # Load API key from external file
 with open("C:/Users/riadm/Desktop/elevenlabs_api_key.txt", "r") as key_file:
     ELEVENLABS_API_KEY = key_file.read().strip()
-ELEVENLABS_VOICE_ID = "nPczCjzI2devNBz1zQrb"
   ELEVENLABS_VOICE_ID = "nPczCjzI2devNBz1zQrb"  # Kullanmak istediğiniz sesin ID'si
 
 ```
