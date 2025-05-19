@@ -1,9 +1,7 @@
 # Ignore API key file
 elevenlabs_api_key.txt
 
-# Ignore virtual environment
-myenv/
-myenv/*
+
 
 # Ignore Python cache
 __pycache__/
